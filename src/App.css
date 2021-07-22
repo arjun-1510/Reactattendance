@@ -123,9 +123,21 @@ th, td {
   width: 60%;
 }
 
+@media screen and (min-width: 480px) {
+  nameCol {
+   font-size: 1rem;
+  
+   font-variant: small-caps;
+   color:aqua;
+  
+  }
+}
+
+
 .switchCol {
   width: 20%;
 }
+
 
 .btn {
   background-color: #82A7DC;
@@ -140,4 +152,15 @@ th, td {
 
 .btn:hover {
   background-color: #A5C5F4;
+}
+
+.p {
+  color: white;
+
+
+ @media all and (min-width: 400px) {
+ {
+      font-size: 5px;
+  }
+}
 }

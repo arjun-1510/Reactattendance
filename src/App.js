@@ -37,11 +37,11 @@ class App extends React.Component {
           {/* Main page */}
           <Route exact path="/" render={props => (
             <React.Fragment>
-              <table>
+              <table className="p">
                 <tr>
-                    <th>Student ID</th>
-                    <th className="nameCol">Student Name</th>
-                    <th className="switchCol">Attendance</th>
+                    <th> ID</th>
+                    <th className="nameCol"> Name</th>
+                    <th className="switchCol">Status</th>
                 </tr>
               </table>
               <Class students={this.state.students} studentPresent={this.studentPresent} />
